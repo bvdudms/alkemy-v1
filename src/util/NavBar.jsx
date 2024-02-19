@@ -1,9 +1,12 @@
-// Navbar.js
 import React from 'react';
 import MobileNav from './MobileNav';
 import logo from '../../image/BV_Logo1.png';
 
 const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
+  const handleLinkClickWithScroll = (item) => {
+    handleScroll(item.toLowerCase());
+    closeMenu(); // Close the menu after clicking a menu item
+  };
   return (
     <>
       <nav className="lg:py-4 max-sm:py-4 lg:px-3">
@@ -12,23 +15,23 @@ const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
             <img src={logo} alt="Logo" className="w-[5vw] max-sm:w-[12vw] mr-2" />
           </div>
           <ul className="flex py-4 gap-8 text-2xl font-semibold mr-6 font-homo max-md:hidden">
-            <li>
-              <a href="#" className="text-white hover:text-yellow-400 hover:underline">Home</a>
+            <li onClick={() => handleLinkClickWithScroll('home')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Home
             </li>
-            <li>
-              <a href="#" className="text-white hover:text-yellow-400 hover:underline">Event</a>
+            <li onClick={() => handleLinkClickWithScroll('events')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Events
             </li>
-            <li>
-              <a href="#" className="text-white hover:text-yellow-400 hover:underline">Sponsors</a>
+            <li onClick={() => handleLinkClickWithScroll('sponsors')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Sponsors
             </li>
-            <li>
-              <a href="#" className="text-white hover:text-yellow-400 hover:underline">Council</a>
+            <li onClick={() => handleLinkClickWithScroll('council')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Council
             </li>
-            <li>
-              <a href="#" className="text-white hover:text-yellow-400 hover:underline">Past Event</a>
+            <li onClick={() => handleLinkClickWithScroll('pastevents')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Past Events
             </li>
-            <li>
-              <a href="#" className="text-white hover:text-yellow-400 hover:underline">About Us</a>
+            <li onClick={() => handleLinkClickWithScroll('aboutus')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">About Us
             </li>
           </ul>
           <button

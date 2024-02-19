@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './util/NavBar';
 import Events from './components/Events';
 import Sponsors from './components/Sponsors';
@@ -10,11 +10,12 @@ import Guests from './util/Guests';
 import FollowUs from './util/FollowUs';
 import mainlogo from '../image/logo.png';
 import bg1 from '../image/mainbg.png';
-import { useState } from 'react';
-import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
+import CardSlider from './util/CardSlider';
+import { useScreenSize } from './util/ScreenSizeUtil';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
-
+  const isSmallScreen = useScreenSize();
   const [isMenuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
@@ -23,14 +24,15 @@ const App = () => {
   const closeMenu = () => {
     setMenuOpen(false);
   };
-  const handleScroll =(component) => {
+  const handleScroll = (component) => {
     document.getElementById(component).scrollIntoView({ behavior: 'smooth' });
   };
+
   return (
     <>
-      <div>
+      <div id='home'>
         <img className="bg -z-50" src={bg1} alt="" />
-        <Navbar toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll}/>
+        <Navbar toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} />
         <hr className='border border-t-2' />
         <div className="min-h-[90vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
           <img src={mainlogo} className="w-[80vw] max-w-[400px] h-auto mt-8 mb-4" alt="" />
@@ -40,16 +42,17 @@ const App = () => {
             Creativity And Innovation Collide. Prepare To Be Amazed, Inspired,
             And Forever Changed 🚀
           </p>
-          
+
         </div>
-        <Events></Events>
-        {/* <Guests></Guests>
-        <Sponsors></Sponsors>
-        <PastEvents></PastEvents>
-        <MadeBy></MadeBy>
-        <Council></Council> */}
-        <About></About>
+        <div id='events'><Events isSmallScreen={isSmallScreen} ></Events></div>
+        <Guests isSmallScreen={isSmallScreen} ></Guests>
+        <div id='sponsors'><Sponsors isSmallScreen={isSmallScreen} ></Sponsors></div>
+        <div id='pastevents'><PastEvents isSmallScreen={isSmallScreen} ></PastEvents></div>
+        <MadeBy  isSmallScreen={isSmallScreen} ></MadeBy>
+        <div id='council'><Council isSmallScreen={isSmallScreen} /></div>
+        <div id='aboutus'><About></About></div>
         <FollowUs></FollowUs>
+
       </div>
     </>
   );
