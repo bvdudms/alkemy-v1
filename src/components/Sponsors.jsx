@@ -1,6 +1,28 @@
 import React from 'react'
 import photo from '../../image/photo.jpeg';
-const Sponsors = () => {
+import CardSlider from '../util/CardSlider3';
+const Sponsors = ({ isSmallScreen }) => {
+  const slides = [
+    {
+      image: `${photo}`,
+      name: "Name",
+      url: "google.com",
+
+    },
+    {
+      image: `${photo}`,
+      name: "Name",
+      url: "google.com",
+
+    },
+    {
+      image: `${photo}`,
+      name: "Name",
+      url: "google.com",
+
+    }
+    // Add more slides as needed
+  ];
   return (
     <div className="min-h-screen">
       <div>
@@ -16,7 +38,7 @@ const Sponsors = () => {
         <div className="flex flex-col items-center justify-center"></div>
       </div>
 
-      <div className="mt-8 grid grid-cols-5 px-12">
+      <div className="mt-8 grid grid-cols-5 px-12 max-md:hidden">
 
         <div className="w-[280px] h-[350px] flex flex-col justify-center gap-2 mb-2 font-homo">
           <img src={photo} alt="" className='w-[210px] h-[240px] self-center rounded-2xl' />
@@ -77,6 +99,14 @@ const Sponsors = () => {
           </div>
         </div>
 
+      </div>
+
+      <div>
+        {isSmallScreen && (
+          <div className="max-sm:mt-5">
+            <CardSlider slides={slides} imageWidth={280} imageHeight={350} />
+          </div>
+        )}
       </div>
     </div>
   )

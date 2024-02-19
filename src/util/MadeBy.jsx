@@ -1,6 +1,28 @@
 import React from 'react'
 import DurgeshKeshri from '../../image/DurgeshKeshri.jpg';
-const MadeBy = () => {
+import CardSlider from './CardSlider';
+const MadeBy = ({ isSmallScreen }) => {
+  const slides = [
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(FRONTEND)",
+      year: "SY BCA"
+    },
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(FRONTEND)",
+      year: "SY BCA"
+    },
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(FRONTEND)",
+      year: "SY BCA"
+    },
+    // Add more slides as needed
+  ];
   return (
     <div>
       <div className="flex justify-center mt-6">
@@ -13,7 +35,7 @@ const MadeBy = () => {
         <hr className='border border-t-4 border-yellow-400 w-[60vw]' />
       </div>
 
-      <div className="mt-8 flex justify-center">
+      <div className="mt-8 flex justify-center max-md:hidden">
 
         <div className="grid grid-cols-3 gap-8">
 
@@ -58,6 +80,13 @@ const MadeBy = () => {
 
         </div>
 
+      </div>
+      <div>
+        {isSmallScreen && (
+          <div className="max-sm:mt-5">
+            <CardSlider slides={slides} imageWidth={250} imageHeight={250} />
+          </div>
+        )}
       </div>
 
     </div>

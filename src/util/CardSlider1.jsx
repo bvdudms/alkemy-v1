@@ -28,15 +28,13 @@ const CardSlider = ({ slides, imageWidth, imageHeight }) => {
   };
 
   return (
-    <div className="relative px-7">
+    <div className="relative px-5">
       <Slider {...settings} className=''>
         {slides.map((slide, index) => (
           <div key={index} className="focus:outline-none">
-            <div className="rounded-lg p-2 md:p-3 gap-1 flex flex-col justify-center items-center">
+            <div className="rounded-lg p-2 md:p-3 gap-2 flex flex-col justify-center items-center">
               <img src={slide.image} alt="Image" style={{ width: imageWidth, height: imageHeight }} className='rounded-3xl' />
               <h2 className="text-center text-white text-3xl font-homo font-bold">{slide.name}</h2>
-              <p className=" text-center text-white text-xl font-bold">{slide.role}</p>
-              <p className=" text-center text-white text-xl font-bold">{slide.year}</p>
             </div>
           </div>
         ))}
