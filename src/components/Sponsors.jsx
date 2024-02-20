@@ -24,7 +24,7 @@ const Sponsors = ({ isSmallScreen }) => {
     // Add more slides as needed
   ];
   return (
-    <div className="min-h-screen">
+    <div className="">
       <div>
         <div className="flex justify-center mt-6">
           <hr className='border border-t-4 border-yellow-400 w-[60vw]' />

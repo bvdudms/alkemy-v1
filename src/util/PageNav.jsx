@@ -1,15 +1,11 @@
 import React from 'react';
 import MobileNav from './MobileNav';
-import logo from '../../image/BV_Logo1.png';
 
-const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
+const PageNav = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, logo }) => {
   const handleLinkClickWithScroll = (item) => {
     handleScroll(item.toLowerCase());
     closeMenu(); // Close the menu after clicking a menu item
   };
-  const clickAndToggle =()=>{
-    toggleMenu();
-  }
   return (
     <>
       <nav className="lg:py-4 max-sm:py-4 lg:px-3">
@@ -42,8 +38,7 @@ const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
             onClick={toggleMenu} // Add onClick handler to toggle the menu
           >
             <svg
-              className={`w-10 h-8 fill-current text-[#e6e63c] transition-transform transform duration-300 ${isMenuOpen ? 'rotate-180' : ''
-            } `}
+              className="w-10 h-8 fill-current text-[#e6e63c]"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >
@@ -61,4 +56,4 @@ const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
   );
 };
 
-export default Navbar;
+export default PageNav;

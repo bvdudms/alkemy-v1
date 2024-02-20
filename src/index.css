@@ -2,18 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-.font-homo{
+.font-homo {
     font-family: "Oxanium-SemiBold", Helvetica;
 }
+
 .bg {
     position: fixed;
     width: 100%;
-    height: 1082px;
-    top: 0;
-    left: 0px;
-    object-fit: cover;
-    background-color: #000000b2;
+    height: 100%;
+    background-size: cover;
+    background-color: black;
+    /* Adjust background size as needed */
+    filter: grayscale(50%) blur(2px) brightness(60%) drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
+   
 }
-.font-sp{
- font-family: "Obritron-Semibold", sans-serif;;
+.bg1 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: black;
+    /* Adjust background size as needed */
+    filter: blur(0px) brightness(35%) saturate(110%) grayscale(0%) drop-shadow(2px 2px 4px black);
+   
+}
+
+.font-sp {
+    font-family: "Obritron-Semibold", sans-serif;
+    ;
 }
