@@ -16,6 +16,7 @@ import Cultural from './pages/Cultural';
 import Esports from './pages/Esports';
 import { useScreenSize } from './util/ScreenSizeUtil';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import TechCouncil from './pages/TechCouncil';
 
 const App = () => {
   const isSmallScreen = useScreenSize();
@@ -60,17 +61,18 @@ const App = () => {
 
           </div>} />
           <Route path='/technical' element={<div className="">
-            <Technical toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} ></Technical>
+            <Technical toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} isSmallScreen={isSmallScreen} ></Technical>
           </div>}></Route>
           <Route path='/sports' element={<div className="">
-            <Sports toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} ></Sports>
+            <Sports toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} isSmallScreen={isSmallScreen} ></Sports>
           </div>}></Route>
           <Route path='/esports' element={<div className="">
-            <Esports toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} ></Esports>
+            <Esports toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} isSmallScreen={isSmallScreen} ></Esports>
           </div>}></Route>
           <Route path='/cultural' element={<div className="">
-            <Cultural toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} ></Cultural>
+            <Cultural toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} isSmallScreen={isSmallScreen}></Cultural>
           </div>}></Route>
+          <Route path='/techcouncil' element={          <TechCouncil isSmallScreen={isMenuOpen}></TechCouncil>}></Route>
         </Routes>
 
       </Router>
