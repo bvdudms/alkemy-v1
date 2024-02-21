@@ -40,7 +40,7 @@ const App = () => {
             <img className="bg min-h-screen -z-50 object-cover" src={bg1} alt="" />
             <Navbar toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} />
             <hr className='border border-t-2' />
-            <div className="min-h-[90vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
+            <div className="min-h-[90vh] max-sm:min-h-[85vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
               <img src={mainlogo} className="w-[80vw] max-w-[400px] h-auto mt-8 mb-4" alt="" />
               <p className="text-center px-4 md:px-48 text-lg md:text-3xl text-white">
                 Get Ready To Ignite Your Senses! Alkemy Is Back, And This Year Is
