@@ -1,33 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import MobileNav1 from './MobileNav1';
-
 const PageNav = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, logo, buttonColor }) => {
-  const handleLinkClickWithScroll = (item) => {
-    handleScroll(item.toLowerCase());
+  const handleLinkClickWithScroll = () => {
     closeMenu(); // Close the menu after clicking a menu item
   };
+
   return (
     <>
       <nav className="lg:py-4 max-sm:py-4 lg:px-3">
         <div className="container mx-auto lg:px-5 max-sm:px-3 flex justify-between items-center">
           <div className="flex items-center">
-            <img src={logo} alt="Logo" className="w-[5vw] max-sm:w-[12vw] mr-2" />
+            <div className=""><Link to="/" className="block">
+              <img src={logo} alt="Logo" className="w-[5vw] max-sm:w-[12vw] mr-2" />
+            </Link>
+            </div>
           </div>
           <ul className="flex py-4 gap-8 text-2xl font-semibold mr-6 font-homo max-md:hidden">
-            <li onClick={() => handleLinkClickWithScroll('home')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Home
+            {/* Use Link for each menu item */}
+            <li onClick={handleLinkClickWithScroll}>
+              <Link to="/" className="text-white hover:text-yellow-400 hover:underline">Home</Link>
             </li>
-            <li onClick={() => handleLinkClickWithScroll('sports')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Sports
+            <li onClick={handleLinkClickWithScroll}>
+              <Link to="/sports" className="text-white hover:text-yellow-400 hover:underline">Sports</Link>
             </li>
-            <li onClick={() => handleLinkClickWithScroll('technical')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Technical
+            <li onClick={handleLinkClickWithScroll}>
+              <Link to="/technical" className="text-white hover:text-yellow-400 hover:underline">Technical</Link>
             </li>
-            <li onClick={() => handleLinkClickWithScroll('esports')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Esports
+            <li onClick={handleLinkClickWithScroll}>
+              <Link to="/esports" className="text-white hover:text-yellow-400 hover:underline">Esports</Link>
             </li>
-            <li onClick={() => handleLinkClickWithScroll('cultural')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Cultural
+            <li onClick={handleLinkClickWithScroll}>
+              <Link to="/cultural" className="text-white hover:text-yellow-400 hover:underline">Cultural</Link>
             </li>
           </ul>
           <button

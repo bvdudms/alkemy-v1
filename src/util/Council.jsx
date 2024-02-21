@@ -1,6 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import DurgeshKeshri from '../../image/DurgeshKeshri.jpg';
 import CardSlider from './CardSlider';
+import CouncilSlider from './CouncilSlider';
 const Council = ({ isSmallScreen }) => {
     const slides = [
         {
@@ -36,94 +38,8 @@ const Council = ({ isSmallScreen }) => {
                     <hr className='border border-t-4 border-yellow-400 w-[60vw]' />
                 </div>
 
-
-                <div className="max-sm:hidden">
-
-
-                    <div className="mt-8 flex justify-center">
-
-                        <div className="grid grid-cols-4 gap-8">
-
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-
-
-                        </div>
-                    </div>
-
-                    <div className="flex justify-center mt-8">
-                        <div className="grid grid-cols-5 gap-8 ">
-                            <div className=" w-[250px] h-[250px] flex flex-col gap-1 items-center">
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center mb-6">
-                                <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-                                <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-                                <p className=' text-center text-white text-sm font-bold'>(TECHNICAL CO-SEC)</p>
-                                <p className=' text-center text-white text-sm font-bold'>SY BCA</p>
-                            </div>
-
-                            <div className="w-[250px] h-[250px] flex flex-col gap-1 items-center">
-                            </div>
-                        </div>
-                    </div>
+                <div className=" max-sm:hidden px-32 mt-8">
+                    <CouncilSlider slides={slides} imageWidth={250} imageHeight={250} ></CouncilSlider>
                 </div>
 
                 <div>
@@ -133,9 +49,13 @@ const Council = ({ isSmallScreen }) => {
                         </div>
                     )}
                 </div>
+                <div className="flex justify-center mt-6">
+                <button className='bg-yellow-500 hover:bg-yellow-600 w-40 p-2 text-white rounded-full font-semibold text-lg'>
+                <Link to="/allcouncil">
+                View Council &gt;
+              </Link>
+                </button>
             </div>
-            <div className="flex justify-center mt-6">
-                <button className='bg-yellow-500 w-40 p-2 text-white rounded-full font-semibold text-lg'><a href="">View More &gt;</a></button>
             </div>
         </>
     )

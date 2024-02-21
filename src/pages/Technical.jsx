@@ -8,7 +8,7 @@ import CustomButton from '../util/CustomButton';
 import CustomButton1 from '../util/CustomButton1';
 import FollowUs from '../util/FollowUs';
 import TSlider from '../util/TSlider';
-
+import { Link } from 'react-router-dom';
 const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScreen }) => {
   const events = [
     {
@@ -119,7 +119,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
 
 
         <div className="max-md:hidden mt-8 grid grid-cols-4 justify-center items-center">
-        {events.map(event => (
+          {events.map(event => (
             <div key={event.id} className="mb-9 text-white font-mono font-bold flex flex-col justify-center items-center">
               <img className='w-[200px] rounded-xl' src={event.img} alt="" />
               <p className='text-2xl tracking-wider'>{event.name}</p>
@@ -132,7 +132,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
           ))}
 
         </div>
-        
+
         {isSmallScreen && (
           <div className="max-sm:mt-5">
             <TSlider events={events} imageWidth={200} imageHeight={200} />
@@ -140,7 +140,10 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
         )}
 
         <div className="flex justify-center items-center mt-6 max-sm:mt-4">
-          <button className='bg-blue-500 hover:bg-[blue] w-40 p-2 text-white rounded-full font-semibold text-lg'><a href="">View Council &gt;</a></button>
+          <button className='bg-blue-500 hover:bg-[blue] w-40 p-2 text-white rounded-full font-semibold text-lg'>
+            <Link to="/allcouncil">
+              View Council &gt;
+            </Link></button>
         </div>
       </div>
       <div className="mt-3 lg:pl-[8vw] max-sm:text-center text-white">

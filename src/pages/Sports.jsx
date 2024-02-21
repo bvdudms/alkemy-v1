@@ -8,7 +8,7 @@ import CustomButton from '../util/CustomButton';
 import CustomButton1 from '../util/CustomButton1';
 import FollowUs from '../util/FollowUs';
 import TSlider from '../util/TSlider';
-
+import { Link } from 'react-router-dom';
 const sports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScreen }) => {
   const events = [
     {
@@ -227,7 +227,10 @@ const sports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScreen
         )}
 
         <div className="flex justify-center items-center mt-6 max-sm:mt-4">
-          <button className='bg-red-600 hover:bg-[red] w-40 p-2 text-white rounded-full font-semibold text-lg'><a href="">View Council &gt;</a></button>
+          <button className='bg-red-600 hover:bg-[red] w-40 p-2 text-white rounded-full font-semibold text-lg'>
+            <Link to="/allcouncil">
+              View Council &gt;
+            </Link></button>
         </div>
       </div>
       <div className="mt-3 lg:pl-[8vw] max-sm:text-center text-white">

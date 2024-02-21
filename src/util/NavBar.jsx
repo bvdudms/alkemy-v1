@@ -7,7 +7,7 @@ const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
     handleScroll(item.toLowerCase());
     closeMenu(); // Close the menu after clicking a menu item
   };
-  const clickAndToggle =()=>{
+  const clickAndToggle = () => {
     toggleMenu();
   }
   return (
@@ -17,22 +17,24 @@ const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
           <div className="flex items-center">
             <img src={logo} alt="Logo" className="w-[5vw] max-sm:w-[12vw] mr-2" />
           </div>
-          <ul className="flex py-4 gap-8 text-2xl font-semibold mr-6 font-homo max-md:hidden">
+          <ul className="flex py-4 gap-8 text-2xl font-semibold mr-6 font-serif max-md:hidden">
             <li onClick={() => handleLinkClickWithScroll('home')}
               className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Home
             </li>
             <li onClick={() => handleLinkClickWithScroll('events')}
               className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Events
             </li>
-            <li onClick={() => handleLinkClickWithScroll('sponsors')}
+            {/* <li onClick={() => handleLinkClickWithScroll('sponsors')}
               className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Sponsors
-            </li>
-            <li onClick={() => handleLinkClickWithScroll('council')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Council
-            </li>
+            </li> */}
             <li onClick={() => handleLinkClickWithScroll('pastevents')}
               className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Past Events
             </li>
+
+            <li onClick={() => handleLinkClickWithScroll('council')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Council
+            </li>
+
             <li onClick={() => handleLinkClickWithScroll('aboutus')}
               className="text-white cursor-pointer hover:text-yellow-400 hover:underline">About Us
             </li>
@@ -43,7 +45,7 @@ const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
           >
             <svg
               className={`w-10 h-8 fill-current text-[#e6e63c] transition-transform transform duration-300 ${isMenuOpen ? 'rotate-180' : ''
-            } `}
+                } `}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
             >

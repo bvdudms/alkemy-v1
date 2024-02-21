@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PageNav from '../util/PageNav';
 import logo from '../../image/logo.png';
 import culturalbg from '../../image/culturalbg.webp';
@@ -41,7 +42,7 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
       url1: "#_",
       url2: "#_"
     },
-   // Add more events as needed
+    // Add more events as needed
   ];
   const performingslide = [
     {
@@ -95,7 +96,7 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
       url2: "#_"
     },
 
-   // Add more events as needed
+    // Add more events as needed
   ];
   const performing1 = [
     {
@@ -118,7 +119,7 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
       url1: "#_",
       url2: "#_"
     },
-   // Add more events as needed
+    // Add more events as needed
   ];
   const fineArts = [
     {
@@ -282,7 +283,10 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
         )}
 
         <div className="flex justify-center items-center mt-6 max-sm:mt-4">
-          <button className='bg-cyan-600 hover:bg-[cyan] w-40 p-2 text-white rounded-full font-semibold text-lg'><a href="">View Council &gt;</a></button>
+          <button className='bg-cyan-600 hover:bg-[cyan] w-40 p-2 text-white rounded-full font-semibold text-lg'>               
+           <Link to="/allcouncil">
+            View Council &gt;
+          </Link></button>
         </div>
       </div>
       <div className="mt-3 lg:pl-[8vw] max-sm:text-center text-white">

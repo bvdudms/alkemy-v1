@@ -7,11 +7,10 @@ const MobileNav = ({ isMenuOpen, closeMenu, handleScroll }) => {
 
   // Update activeLink state when location changes
   useEffect(() => {
-    setActiveLink(location.pathname.substr(1)); // Remove leading '/'
+    setActiveLink(location.pathname.slice(1)); // Remove leading '/'
   }, [location]);
 
   const handleLinkClickWithScroll = (item) => {
-    handleScroll(item.toLowerCase());
     closeMenu(); // Close the menu after clicking a menu item
   };
 
