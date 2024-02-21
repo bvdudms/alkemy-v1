@@ -16,7 +16,6 @@ import Cultural from './pages/Cultural';
 import Esports from './pages/Esports';
 import { useScreenSize } from './util/ScreenSizeUtil';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import TechCouncil from './pages/TechCouncil';
 
 const App = () => {
   const isSmallScreen = useScreenSize();
@@ -38,10 +37,10 @@ const App = () => {
       <Router>
         <Routes>
           <Route path='/' element={<div id='home'>
-            <img className="bg -z-50 object-cover" src={bg1} alt="" />
+            <img className="bg min-h-screen -z-50 object-cover" src={bg1} alt="" />
             <Navbar toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} />
             <hr className='border border-t-2' />
-            <div className="min-h-[90vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
+            <div className="min-h-[95vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
               <img src={mainlogo} className="w-[80vw] max-w-[400px] h-auto mt-8 mb-4" alt="" />
               <p className="text-center px-4 md:px-48 text-lg md:text-3xl text-white">
                 Get Ready To Ignite Your Senses! Alkemy Is Back, And This Year Is
@@ -49,6 +48,12 @@ const App = () => {
                 Creativity And Innovation Collide. Prepare To Be Amazed, Inspired,
                 And Forever Changed 🚀
               </p>
+              <div className=" flex flex-col mt-2  font-homo">
+              <p className='text-center px-4 font-semibold text-md md:text-2xl max-sm:hidden text-white'>Keep the dates locked: <span className='font-extrabold'>2nd to 8th March 2024</span> <a href="" className='underline'>Go through our offical brochure</a></p>
+              <p className='text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white'>Keep the dates locked: 2nd to 8th</p>
+              <p className='text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white'>March 2024</p>
+              <p className='text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white underline'><a href="">Go through our Official Brochure</a></p>
+              </div>
             </div>
             <div id='events'><Events isSmallScreen={isSmallScreen} ></Events></div>
             <Guests isSmallScreen={isSmallScreen} ></Guests>
@@ -60,6 +65,7 @@ const App = () => {
             <FollowUs></FollowUs>
 
           </div>} />
+
           <Route path='/technical' element={<div className="">
             <Technical toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} isSmallScreen={isSmallScreen} ></Technical>
           </div>}></Route>
@@ -72,7 +78,6 @@ const App = () => {
           <Route path='/cultural' element={<div className="">
             <Cultural toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} isSmallScreen={isSmallScreen}></Cultural>
           </div>}></Route>
-          <Route path='/techcouncil' element={          <TechCouncil isSmallScreen={isMenuOpen}></TechCouncil>}></Route>
         </Routes>
 
       </Router>

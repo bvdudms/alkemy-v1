@@ -103,8 +103,8 @@ const Sponsors = ({ isSmallScreen }) => {
 
       <div>
         {isSmallScreen && (
-          <div className="max-sm:mt-5">
-            <CardSlider slides={slides} imageWidth={280} imageHeight={350} />
+          <div className="max-sm:mt-5 px-2">
+            <CardSlider slides={slides} imageWidth={260} imageHeight={340} />
           </div>
         )}
       </div>

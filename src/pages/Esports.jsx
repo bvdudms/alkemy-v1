@@ -97,8 +97,8 @@ const Esports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScree
   return (
     <>
       <div className=''>
-        <img className="bg1 -z-50 " src={esportsbackground} alt="" />
-        <PageNav toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} logo={logo} ></PageNav>
+        <img className="bg1 min-h-screen -z-50 " src={esportsbackground} alt="" />
+        <PageNav toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} logo={logo} buttonColor={"orange"}></PageNav>
         <hr className='border border-t-2 border-[orange]' />
 
         <div className="min-h-[90vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">

@@ -1,7 +1,7 @@
 import React from 'react';
-import MobileNav from './MobileNav';
+import MobileNav1 from './MobileNav1';
 
-const PageNav = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, logo }) => {
+const PageNav = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, logo, buttonColor }) => {
   const handleLinkClickWithScroll = (item) => {
     handleScroll(item.toLowerCase());
     closeMenu(); // Close the menu after clicking a menu item
@@ -17,20 +17,17 @@ const PageNav = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, logo }) => {
             <li onClick={() => handleLinkClickWithScroll('home')}
               className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Home
             </li>
-            <li onClick={() => handleLinkClickWithScroll('events')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Events
+            <li onClick={() => handleLinkClickWithScroll('sports')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Sports
             </li>
-            <li onClick={() => handleLinkClickWithScroll('sponsors')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Sponsors
+            <li onClick={() => handleLinkClickWithScroll('technical')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Technical
             </li>
-            <li onClick={() => handleLinkClickWithScroll('council')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Council
+            <li onClick={() => handleLinkClickWithScroll('esports')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Esports
             </li>
-            <li onClick={() => handleLinkClickWithScroll('pastevents')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Past Events
-            </li>
-            <li onClick={() => handleLinkClickWithScroll('aboutus')}
-              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">About Us
+            <li onClick={() => handleLinkClickWithScroll('cultural')}
+              className="text-white cursor-pointer hover:text-yellow-400 hover:underline">Cultural
             </li>
           </ul>
           <button
@@ -38,9 +35,10 @@ const PageNav = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, logo }) => {
             onClick={toggleMenu} // Add onClick handler to toggle the menu
           >
             <svg
-              className="w-10 h-8 fill-current text-[#e6e63c]"
+              className="w-10 h-8 fill-current"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
+              style={{ color: buttonColor }} // Set the color using the prop
             >
               <path
                 fillRule="evenodd"
@@ -51,7 +49,7 @@ const PageNav = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, logo }) => {
         </div>
       </nav>
 
-      <MobileNav toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll}></MobileNav>
+      <MobileNav1 toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll}></MobileNav1>
     </>
   );
 };

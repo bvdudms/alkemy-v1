@@ -157,14 +157,14 @@ const sports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScreen
   return (
     <>
       <div className=''>
-        <img className="bg1 -z-50 " src={sportsbg} alt="" />
-        <PageNav toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} logo={logo} ></PageNav>
-        <hr className='border border-t-2 border-[orange]' />
+        <img className="bg1 min-h-screen -z-50 " src={sportsbg} alt="" />
+        <PageNav toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} logo={logo} buttonColor={"red"}></PageNav>
+        <hr className='border border-t-2 border-[red]' />
 
         <div className="min-h-[90vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
           <img src={sportslogo} className="w-[60vw] max-w-[300px] h-auto mt-8 mb-1 rounded-full" alt="" />
           <p className='text-center text-[red] text-8xl font-bold max-sm:text-5xl'>Sports Zone</p>
-          <p className='text-white text-3xl font-bold mt-5 lg:px-[500px] text-center max-sm:text-xl max-sm:px-20'>Unleash the magic ⚡️ within at Alkemy! ⚽️ Transform your game, level up your spirit.</p>
+          <p className='text-white text-3xl font-bold mt-5 lg:px-[500px] text-center max-sm:text-xl max-sm:px-[10vw]'>Unleash the magic ⚡️ within at Alkemy! ⚽️ Transform your game, level up your spirit.</p>
         </div>
         <div className="flex justify-center ">
           <hr className='border border-t-4 border-red-600 w-[60vw]' />

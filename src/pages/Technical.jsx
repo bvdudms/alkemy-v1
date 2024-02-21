@@ -98,8 +98,8 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
   return (
     <>
       <div className=''>
-        <img className="bg1 -z-50 " src={technical} alt="" />
-        <PageNav toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} logo={logo} ></PageNav>
+        <img className="bg1 min-h-screen -z-50 " src={technical} alt="" />
+        <PageNav toggleMenu={toggleMenu} closeMenu={closeMenu} isMenuOpen={isMenuOpen} handleScroll={handleScroll} logo={logo} buttonColor={"dodgerblue"}></PageNav>
         <hr className='border border-t-2 border-blue-500' />
 
         <div className="min-h-[90vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
