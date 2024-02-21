@@ -52,9 +52,9 @@ const App = () => {
                     handleScroll={handleScroll}
                   />
                   <hr className="border border-t-2 w-full" />
-                  <div className="min-h-[95vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
+                  <div className="min-h-[95vh] max-sm:min-h-[85vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
                     <img src={mainlogo} className="w-[80vw] max-w-[400px] h-auto mt-8 mb-4" alt="" />
-                    <div className="max-sm:min-h-[85vh]">
+
                     <p className="font-serif text-center px-4 md:px-48 text-lg md:text-3xl text-white">
                       Get Ready To Ignite Your Senses! Alkemy Is Back, And This Year Is Going To Be A Transformative
                       Experience. Step Into A Realm Where Creativity And Innovation Collide. Prepare To Be Amazed,
@@ -76,7 +76,6 @@ const App = () => {
                       <p className="text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white underline">
                         <a href="">Go through our Official Brochure</a>
                       </p>
-                    </div>
                     </div>
                   </div>
                   <div id="events">
