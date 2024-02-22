@@ -30,6 +30,48 @@ const AllCouncil = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallSc
     },
     // Add more slides as needed
   ];
+  const slides1 = [
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(TECHNICAL CO-SEC)",
+      year: "SY BCA"
+    },
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(TECHNICAL CO-SEC)",
+      year: "SY BCA"
+    },
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(TECHNICAL CO-SEC)",
+      year: "SY BCA"
+    },
+    // Add more slides as needed
+  ];
+  const slides2 = [
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(TECHNICAL CO-SEC)",
+      year: "SY BCA"
+    },
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(TECHNICAL CO-SEC)",
+      year: "SY BCA"
+    },
+    {
+      image: `${DurgeshKeshri}`,
+      name: "DURGESH KESHRI",
+      role: "(TECHNICAL CO-SEC)",
+      year: "SY BCA"
+    },
+    // Add more slides as needed
+  ];
   return (
     <>
       <div className=''>
@@ -45,6 +87,7 @@ const AllCouncil = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallSc
           <p className='text-center text-purple-600 text-8xl font-bold max-sm:text-4xl'>Student Council</p>
           <p className='text-white text-3xl font-bold mt-5 lg:px-96 text-center max-sm:text-lg max-sm:px-5'>Passion, innovation, excitement - witness our student council's marvels: sports, culture, tech, esports - each event resonates with excellence. 🏆🌟</p>
         </div>
+
         <div className="flex justify-center ">
           <hr className='border border-t-4 border-purple-700 w-[60vw]' />
         </div>
@@ -62,6 +105,49 @@ const AllCouncil = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallSc
           {isSmallScreen && (
               <div className="max-sm:mt-5">
                 <CardSlider slides={slides} imageWidth={250} imageHeight={250} />
+              </div>
+            )}
+          </div>
+        </div>
+        
+        <div className="flex justify-center ">
+          <hr className='border border-t-4 border-purple-700 w-[60vw]' />
+        </div>
+        <div className="flex justify-center my-2">
+          <h3 className='text-center text-4xl max-sm:text-xl text-purple-600 font-bold font-homo'>SECRETARIES</h3>
+        </div>
+        <div className="flex justify-center">
+          <hr className='border border-t-4 border-purple-700 w-[60vw]' />
+        </div>
+        <div className="">
+          <div className=" max-sm:hidden px-32 mt-8">
+            <CouncilSlider slides={slides1} imageWidth={250} imageHeight={250} ></CouncilSlider>
+          </div>
+          <div>
+          {isSmallScreen && (
+              <div className="max-sm:mt-5">
+                <CardSlider slides={slides1} imageWidth={250} imageHeight={250} />
+              </div>
+            )}
+          </div>
+        </div>
+        <div className="flex justify-center ">
+          <hr className='border border-t-4 border-purple-700 w-[60vw]' />
+        </div>
+        <div className="flex justify-center my-2">
+          <h3 className='text-center text-4xl max-sm:text-xl text-purple-600 font-bold font-homo'>MEMBERS</h3>
+        </div>
+        <div className="flex justify-center">
+          <hr className='border border-t-4 border-purple-700 w-[60vw]' />
+        </div>
+        <div className="">
+          <div className=" max-sm:hidden px-32 mt-8">
+            <CouncilSlider slides={slides2} imageWidth={250} imageHeight={250} ></CouncilSlider>
+          </div>
+          <div>
+          {isSmallScreen && (
+              <div className="max-sm:mt-5">
+                <CardSlider slides={slides2} imageWidth={250} imageHeight={250} />
               </div>
             )}
           </div>

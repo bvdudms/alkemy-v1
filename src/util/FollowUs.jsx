@@ -16,7 +16,7 @@ const FollowUs = () => {
         </div>
       </div>
     </footer>
-    <p className='text-gray-300 font-mono text-xl max-sm:text-xs max-sm:-mt-2 text-center font-medium'>Copyright © 2024 BVDU-NM. All rights reserved</p>
+    <p className='mb-1 text-gray-300 font-mono text-xl max-sm:text-xs max-sm:-mt-2 text-center font-medium'>Copyright © 2024 BVDU-NM. All rights reserved</p>
     </>
   );
 }
