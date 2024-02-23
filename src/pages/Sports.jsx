@@ -3,6 +3,10 @@ import PageNav from '../util/PageNav';
 import logo from '../../image/logo.png';
 import sportsbg from '../../image/sportsbg.jpg';
 import typing from '../../image/typing.jpeg';
+import cricket from '../../image/cricket.jpg'
+import volleyball from '../../image/volleyball.jpg'
+import kabbadi from '../../image/kabbadi.jpg'
+import football from '../../image/football.jpg'
 import sportslogo from '../../image/sportslogo.png';
 import CustomButton from '../util/CustomButton';
 import CustomButton1 from '../util/CustomButton1';
@@ -153,6 +157,16 @@ const sports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScreen
       url1: "#_",
       url2: "#_"
     },    // Add more events as needed
+    {
+      id: 9,
+      name: "Cricket(boys/girls)",
+      date: "05/03/2024",
+      mode: "Offline",
+      entryFee: "150;",
+      img: `${typing}`,
+      url1: "#_",
+      url2: "#_"
+    },    // Add more events as needed
   ];
   return (
     <>
@@ -197,7 +211,7 @@ const sports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScreen
           <p>Intra College Events</p>
         </div>
 
-        <div className="max-md:hidden mt-8 grid grid-cols-4 justify-center items-center px-32">
+        <div className="max-md:hidden mt-8 grid grid-cols-3 justify-center items-center px-32">
           {events1.map(event => (
             <div key={event.id} className="mb-9 text-white font-mono font-medium flex flex-col justify-center items-center">
               <img className='w-[200px] rounded-xl' src={event.img} alt="" />
