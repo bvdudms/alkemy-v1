@@ -253,7 +253,9 @@ const sports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScreen
         <p className='font-bold text-xl font-homo max-sm:text-lg'>JETRA VYAS: +911234567899</p>
         <p className='font-bold text-xl font-homo max-sm:text-lg'>JETRA VYAS: +911234567899</p>
       </div>
+      <div className="max-sm:px-2">
       <FollowUs></FollowUs>
+      </div>
     </>
   )
 }
