@@ -13,7 +13,7 @@ const MobileNav = ({ isMenuOpen, closeMenu, handleScroll }) => {
   return (
     <>
       {isMenuOpen && (
-        <div className='min-h-screen w-full fixed inset-0 flex flex-col md:hidden text-white justify-center items-center font-homo bg-slate-950 gap-4 z-50'>
+        <div className='min-h-screen w-full fixed inset-0 flex flex-col md:hidden text-white justify-center items-center font-homo bg-black gap-4 z-50'>
           <ul className="list-none flex flex-col justify-center items-center text-3xl gap-4 font-bold font-serif">
             <li className={`${activeLink === 'home' ? 'text-yellow-500' : ''}`} onClick={() => handleLinkClickWithScroll('home')}>Home</li>
             <li className={`${activeLink === 'events' ? 'text-yellow-500' : ''}`} onClick={() => handleLinkClickWithScroll('events')}>Events</li>
