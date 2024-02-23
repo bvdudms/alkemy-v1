@@ -5,7 +5,7 @@ import baljeev from '../../image/baljeev.jpg';
 import abhinav from '../../image/abhinav.jpg';
 import tresurer from '../../image/TRESURER.jpg';
 import kritika from '../../image/kritika.jpg';
-import jetra from '../../image/jetra.jpg';
+import jet from '../../image/tech_sec_eng.jpg';
 import ayush from '../../image/ayush.jpg';
 import aditi from '../../image/aditi.jpg';
 import ruchir from '../../image/ruchir.jpg';
@@ -68,7 +68,7 @@ const Council = ({ isSmallScreen }) => {
             year: "TY BCA"
         },
         {
-            image: `${jetra}`,
+            image: `${jet}`,
             name: "JETRA VYAS",
             role: "(TECHNICAL HEAD)",
             year: "FINAL YEAR CSE"
