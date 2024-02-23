@@ -1,25 +1,48 @@
 import React from 'react'
 import DurgeshKeshri from '../../image/DurgeshKeshri.jpg';
+import kritansh from '../../image/kritansh.jpg'
+import Ujjwal from '../../image/ujjwal.jpg'
+import rishit from '../../image/rishit.jpg'
+import sakshi from '../../image/sakshi.jpg'
+import danish from '../../image/danish.jpg'
 import CardSlider from './CardSlider';
 const MadeBy = ({ isSmallScreen }) => {
   const slides = [
     {
       image: `${DurgeshKeshri}`,
       name: "DURGESH KESHRI",
-      role: "(FRONTEND)",
+      role: "(DEVELOPER)",
       year: "SY BCA"
     },
     {
-      image: `${DurgeshKeshri}`,
-      name: "DURGESH KESHRI",
-      role: "(FRONTEND)",
+      image: `${Ujjwal}`,
+      name: "UJJWAL SINGH",
+      role: "(UI/UX)",
+      year: "TY CSE"
+    },
+    {
+      image: `${kritansh}`,
+      name: "KRITANSH TANK",
+      role: "(DEVELOPER)",
+      year: "TY CSE"
+    },
+    {
+      image: `${rishit}`,
+      name: "RISHIT SRIVASTAVA",
+      role: "(LOGO)",
+      year: "SY CSE"
+    },
+    {
+      image: `${danish}`,
+      name: "DANISH SHAIKH",
+      role: "(DEVELOPER)",
       year: "SY BCA"
     },
     {
-      image: `${DurgeshKeshri}`,
-      name: "DURGESH KESHRI",
-      role: "(FRONTEND)",
-      year: "SY BCA"
+      image: `${sakshi}`,
+      name: "SAKSHI SAWANT",
+      role: "(CONVERSATIONAL DESIGN)",
+      year: "FINAL YEAR CSE"
     },
     // Add more slides as needed
   ];
@@ -42,38 +65,38 @@ const MadeBy = ({ isSmallScreen }) => {
           <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
             <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
             <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>(FRONTEND)</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>(DEVELOPER)</p>
             <p className='-mt-1 text-center text-white text-sm font-bold'>SY BCA</p>
           </div>
           <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
-            <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-            <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>(FRONTEND)</p>
+            <img src={Ujjwal} alt="" className='w-[200px] h-[200px] rounded-3xl' />
+            <p className='text-center text-white text-lg font-homo font-bold'>UJJWAL SINGH</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>(UI/UX)</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>TY CSE</p>
+          </div>
+          <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
+            <img src={kritansh} alt="" className='w-[200px] h-[200px] rounded-3xl' />
+            <p className='text-center text-white text-lg font-homo font-bold'>KRITANSH TANK</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>(DEVELOPER)</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>TY CSE</p>
+          </div>
+          <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
+            <img src={rishit} alt="" className='w-[200px] h-[200px] rounded-3xl' />
+            <p className='text-center text-white text-lg font-homo font-bold'>RISHIT SRIVASTAVA</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>(LOGO)</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>TY CSE</p>
+          </div>
+          <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
+            <img src={danish} alt="" className='w-[200px] h-[200px] rounded-3xl' />
+            <p className='text-center text-white text-lg font-homo font-bold'>DANISH SHAIKH</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>(DEVELOPER)</p>
             <p className='-mt-1 text-center text-white text-sm font-bold'>SY BCA</p>
           </div>
           <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
-            <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-            <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>(FRONTEND)</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>SY BCA</p>
-          </div>
-          <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
-            <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-            <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>(FRONTEND)</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>SY BCA</p>
-          </div>
-          <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
-            <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-            <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>(FRONTEND)</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>SY BCA</p>
-          </div>
-          <div className="w-[250px] h-[250px] flex flex-col gap-2 items-center mb-6">
-            <img src={DurgeshKeshri} alt="" className='w-[200px] h-[200px] rounded-3xl' />
-            <p className='text-center text-white text-lg font-homo font-bold'>DURGESH KESHRI</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>(FRONTEND)</p>
-            <p className='-mt-1 text-center text-white text-sm font-bold'>SY BCA</p>
+            <img src={sakshi} alt="" className='w-[200px] h-[200px] rounded-3xl' />
+            <p className='text-center text-white text-lg font-homo font-bold'>SAKSHI SAWANT</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>(CONVERSATIONAL DESIGN)</p>
+            <p className='-mt-1 text-center text-white text-sm font-bold'>TY CSE</p>
           </div>
 
 

@@ -1,5 +1,8 @@
 import React from 'react'
 import pastevent from '../../image/code_relay.png'
+import WebChallenge from '../../image/web_challenge.png'
+import cultural from '../../image/cultural_event.jpg'
+import codewars from '../../image/code_wars.jpg'
 import CardSlider from '../util/CardSlider1';
 const PastEvents = ({ isSmallScreen }) => {
   const slides = [
@@ -8,13 +11,13 @@ const PastEvents = ({ isSmallScreen }) => {
       name: "Code Relay"
     },
     {
-      image: `${pastevent}`,
-      name: "Code Relay"
+      image: `${WebChallenge}`,
+      name: "Web Challenge"
 
     },
     {
-      image: `${pastevent}`,
-      name: "Code Relay"
+      image: `${codewars}`,
+      name: "Code Wars"
 
     },
     // Add more slides as needed
@@ -37,16 +40,16 @@ const PastEvents = ({ isSmallScreen }) => {
           <p className='text-white font-homo text-3xl text-center font-homo font-semibold'>Code Relay</p>
         </div>
         <div className=" flex flex-col gap-2 w-[280px] h-[350px]">
-          <img src={pastevent} alt="" className='w-[220px] h-[330px] rounded-3xl self-center' />
-          <p className='text-white font-homo text-3xl text-center font-homo font-semibold'>Code Relay</p>
+          <img src={WebChallenge} alt="" className='w-[220px] h-[330px] rounded-3xl self-center' />
+          <p className='text-white font-homo text-3xl text-center font-homo font-semibold'>Web Challenge</p>
         </div>
         <div className=" flex flex-col gap-2 w-[280px] h-[350px]">
-          <img src={pastevent} alt="" className='w-[220px] h-[330px] rounded-3xl self-center' />
-          <p className='text-white font-homo text-3xl text-center font-homo font-semibold'>Code Relay</p>
+          <img src={cultural} alt="" className='w-[220px] h-[330px] rounded-3xl self-center' />
+          <p className='text-white font-homo text-3xl text-center font-homo font-semibold'>Cultural Event</p>
         </div>
         <div className=" flex flex-col gap-2 w-[280px] h-[350px]">
-          <img src={pastevent} alt="" className='w-[220px] h-[330px] rounded-3xl self-center' />
-          <p className='text-white font-homo text-3xl text-center font-homo font-semibold'>Code Relay</p>
+          <img src={codewars} alt="" className='w-[220px] h-[330px] rounded-3xl self-center' />
+          <p className='text-white font-homo text-3xl text-center font-homo font-semibold'>Code Wars</p>
         </div>
       </div>
       <div>

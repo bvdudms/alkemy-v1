@@ -21,11 +21,11 @@ const About = () => {
             UNIVERSITY FOCUSES ON BRIDGING THE GAP BETWEEN ACADEMIA AND
             INDUSTRY-ORIENTED EXPERIENCE, AND NURTURING STUDENTS TO BE
             COMPETENT PROFESSIONALS AND RESPONSIBLE CITIZENS.</p>
-            <div className=" flex">
+          <div className=" flex">
             <p className='text-white max-sm:text-md lg:text-4xl mt-5 lg:pr-32 tracking-widest font-serif'>MESSAGE BY HON'BLE DR. PATANGRAO KADAM:</p>
-            <img src={patang} alt=""  className='sm:hidden w-[70px] rounded-xl'/>
-            </div>
-          
+            <img src={patang} alt="" className='sm:hidden w-[70px] rounded-xl' />
+          </div>
+
           <p className='text-white lg:text-lg lg:mt-5 max-sm:mt-2 max-sm:text-xs tracking-wide font-serif'>BHARATI VIDYAPEETH (DEEMED TO BE UNIVERSITY) IS COMMITTED TO BRINGING ABOUT SOCIAL EMPOWERMENT THROUGH DYNAMIC EDUCATION. IT HAS BEEN ABLE TO STAND TALL IN THE FIELD OF EDUCATION IN THE PAST AS WELL AS IN MODERN TIMES. OUR JOURNEY OF FOUR DECADES HAS EARNED PRIDE FOR US AS A UNIVERSITY. WE, AT BHARATI VIDYAPEETH (DEEMED TO BE UNIVERSITY), HAVE BEEN WORKING RELENTLESSLY TOWARDS FULFILLING OUR MISSION 'SOCIAL TRANSFORMATION THROUGH DYNAMIC EDUCATION'. WHILE PURSUING THIS MISSION, WE ARE PREPARED TO ACCEPT NEW CHALLENGES POSITIVELY.</p>
           <p className='text-white lg:text-lg mt-5 max-sm:text-xs tracking-wide font-serif'>LET US STRIVE TOGETHER TO BUILD OUR NATION!</p>
         </div>
@@ -40,10 +40,15 @@ const About = () => {
           <div className=" self-center">
             <img src={bharati} alt="" className='w-[100px]' />
           </div>
-          <div className="flex items-center gap-12 ">
-            <img src={detlogo} alt="" className='w-[100px] h-[40px]' />
-            <img src={dms} alt="" className='w-[100px]' />
+          <div className="flex items-center gap-12">
+            <a href="https://www.bvuniversity.edu.in/doemumbai/">
+              <img src={detlogo} alt="" className='w-[100px] h-[40px]' />
+            </a>
+            <a href="https://www.bvuniversity.edu.in/dommumbai/">
+              <img src={dms} alt="" className='w-[100px]' />
+            </a>
           </div>
+
         </div>
       </div>
     </div>
