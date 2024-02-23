@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import DurgeshKeshri from '../../image/DurgeshKeshri.jpg';
 import baljeev from '../../image/baljeev.jpg';
 import abhinav from '../../image/abhinav.jpg';
 import tresurer from '../../image/TRESURER.jpg';

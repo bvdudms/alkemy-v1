@@ -44,7 +44,7 @@ const Navbar = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll }) => {
             onClick={toggleMenu} // Add onClick handler to toggle the menu
           >
             <svg
-              className={`w-10 h-8 fill-current text-[#e6e63c] transition-transform transform duration-300 ${isMenuOpen ? 'rotate-180' : ''
+              className={`w-10 h-8 fill-current text-[white] transition-transform transform duration-300 ${isMenuOpen ? 'rotate-180' : ''
                 } `}
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
