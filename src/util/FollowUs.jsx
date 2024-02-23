@@ -8,11 +8,11 @@ const FollowUs = () => {
     <footer className="text-white py-8">
       <div className="container mx-auto flex justify-center items-center">
         <div className="flex flex-row space-x-8 lg:gap-4">
-          <a href="#" className="text-2xl lg:text-4xl"><FaMapMarkerAlt className="text-green-700" /></a>
-          <a href="#" className="text-2xl lg:text-4xl"><FaInstagram className="text-pink-700" /></a>
-          <a href="#" className="text-2xl lg:text-4xl"><FaFacebook className="text-blue-500" /></a>
-          <a href="#" className="text-2xl lg:text-4xl"><FaLinkedin className="text-blue-500" /></a>
-          <a href="#" className="text-2xl lg:text-4xl"><FaYoutube className="text-red-500" /></a>
+          <a href="https://maps.app.goo.gl/bJvdVBUcpZ6qVXvNA" className="text-2xl lg:text-4xl"><FaMapMarkerAlt className="text-green-700" /></a>
+          <a href="https://www.instagram.com/alkemy.bvdu/" className="text-2xl lg:text-4xl"><FaInstagram className="text-pink-700" /></a>
+          <a href="https://www.facebook.com/profile.php?id=100074368292907" className="text-2xl lg:text-4xl"><FaFacebook className="text-blue-500" /></a>
+          <a href="https://www.linkedin.com/company/bvdu-det/" className="text-2xl lg:text-4xl"><FaLinkedin className="text-blue-500" /></a>
+          <a href="https://www.youtube.com/@BharatiVidyapeethDET-NM" className="text-2xl lg:text-4xl"><FaYoutube className="text-red-500" /></a>
         </div>
       </div>
     </footer>
