@@ -1,7 +1,7 @@
 import React from 'react'
 import pastevent from '../../image/code_relay.png'
 import WebChallenge from '../../image/web_challenge.png'
-import cultural from '../../image/cultural_event.jpg'
+import cultural from '../../image/cul_event.jpg'
 import codewars from '../../image/code_wars.jpg'
 import CardSlider from '../util/CardSlider1';
 const PastEvents = ({ isSmallScreen }) => {
@@ -13,6 +13,11 @@ const PastEvents = ({ isSmallScreen }) => {
     {
       image: `${WebChallenge}`,
       name: "Web Challenge"
+
+    },
+    {
+      image: `${cultural}`,
+      name: "Cultural Event"
 
     },
     {
