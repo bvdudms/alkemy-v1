@@ -1,6 +1,6 @@
 import React from 'react'
 import pastevent from '../../image/code_relay.png'
-import WebChallenge from '../../image/web_challenge.jpg'
+import WebChallenge from '../../image/web_challenge1.jpg'
 import cultural from '../../image/cul_event.jpg'
 import codewars from '../../image/code_wars.jpg'
 import CardSlider from '../util/CardSlider1';
