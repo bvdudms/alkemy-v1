@@ -125,7 +125,7 @@ const AllCouncil = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallSc
     },
     {
       image: `${tresurer}`,
-      name: "SAHI MANJULKAR",
+      name: "SAHIL MANJULKAR",
       role: "(TREASURER)",
       year: "TY BCA"
     },
@@ -222,7 +222,7 @@ const AllCouncil = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallSc
             <img className='w-[100px]' src={dms} alt="" />
           </div>
           <p className='text-center text-purple-600 text-8xl font-bold max-sm:text-4xl'>STUDENT COUNCIL</p>
-          <p className='text-white text-3xl font-bold mt-5 lg:px-96 text-center max-sm:text-lg max-sm:px-5'>Passion, innovation, excitement - witness our student council's marvels: sports, culture, tech, esports - each event resonates with excellence. 🏆🌟</p>
+          <p className='text-white text-3xl font-bold mt-5 lg:px-96 text-center max-sm:text-lg max-sm:px-7'>Passion, innovation, excitement - witness our student council's marvels: sports, culture, tech, esports - each event resonates with excellence. 🏆🌟</p>
         </div>
 
         <div className="flex justify-center ">
@@ -247,7 +247,7 @@ const AllCouncil = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallSc
           </div>
         </div>
 
-        <div className="flex justify-center ">
+        <div className="flex justify-center mt-8 ">
           <hr className='border border-t-4 border-purple-700 w-[60vw]' />
         </div>
         <div className="flex justify-center my-2">
