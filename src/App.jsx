@@ -53,7 +53,7 @@ const App = () => {
                   />
                   <hr className="border border-t-2 w-full" />
                   <div className="min-h-[95vh] max-sm:min-h-[85vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
-                    <img src={mainlogo} className="w-[80vw] max-w-[400px] h-auto mt-8 mb-1" alt="" />
+                    <img src={mainlogo} className="w-[80vw] max-w-[400px] h-auto mt-8 mb-4" alt="" />
 
                     <p className="font-serif text-center px-4 md:px-48 text-lg md:text-3xl text-white">
                       Get Ready To Ignite Your Senses! Alkemy Is Back, And This Year Is Going To Be A Transformative
@@ -62,19 +62,19 @@ const App = () => {
                     </p>
                     <div className=" flex flex-col mt-2 font-homo">
                       <p className="text-center px-4 font-semibold text-md md:text-2xl max-sm:hidden text-white">
-                        Keep Your Dates Locked: <span className="font-extrabold">2nd to 8th March, 2024</span>{' '}<br/>
-                        <a href="https://drive.google.com/file/d/1xpRZpoNjStUXxe0oTN6-HPWvo4E9FRhd/view?usp=drive_link" className="underline">
+                        Keep the dates locked: <span className="font-extrabold">2nd to 8th March 2024</span>{' '}
+                        <a href="https://drive.google.com/file/d/1xpRZpoNjStUXxe0oTN6-HPWvo4E9FRhd/view" className="underline">
                           Go through our official brochure
                         </a>
                       </p>
-                      <p className=" -mt-2 text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white">
+                      <p className="text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white">
                         Keep the dates locked: 2nd to 8th
                       </p>
                       <p className="text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white">
                         March 2024
                       </p>
                       <p className="text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white underline">
-                        <a href="https://drive.google.com/file/d/1xpRZpoNjStUXxe0oTN6-HPWvo4E9FRhd/view?usp=drive_link">Go through our Official Brochure</a>
+                        <a href="https://drive.google.com/file/d/1xpRZpoNjStUXxe0oTN6-HPWvo4E9FRhd/view">Go through our Official Brochure</a>
                       </p>
                     </div>
                   </div>
