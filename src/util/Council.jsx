@@ -110,7 +110,7 @@ const Council = ({ isSmallScreen }) => {
         },
         {
             image: `${shweta}`,
-            name: "SHWETA ENDDAW",
+            name: "SWETA ENDAW",
             role: "(PR HEAD)",
             year: "FINAL YEAR CSE"
         },

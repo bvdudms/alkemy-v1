@@ -62,8 +62,8 @@ const App = () => {
                     </p>
                     <div className=" flex flex-col mt-2 font-homo">
                       <p className="text-center px-4 font-semibold text-md md:text-2xl max-sm:hidden text-white">
-                        Keep the dates locked: <span className="font-extrabold">2nd to 8th March 2024</span>{' '}
-                        <a href="" className="underline">
+                        Keep Your Dates Locked: <span className="font-extrabold">2nd to 8th March, 2024</span>{' '}<br/>
+                        <a href="https://drive.google.com/file/d/1xpRZpoNjStUXxe0oTN6-HPWvo4E9FRhd/view?usp=drive_link" className="underline">
                           Go through our official brochure
                         </a>
                       </p>
@@ -78,7 +78,7 @@ const App = () => {
                       </p>
                     </div>
                   </div>
-                  <div id="events"  className='mt-4'>
+                  <div id="events">
                     <Events isSmallScreen={isSmallScreen}></Events>
                   </div>
                   {/* <Guests isSmallScreen={isSmallScreen}></Guests>
