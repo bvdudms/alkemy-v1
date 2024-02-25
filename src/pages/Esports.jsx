@@ -56,7 +56,7 @@ const Esports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScree
       mode: "Solo(Offline)",
       entryFee: "₹100",
       img: `${fifa}`,
-      url1: "https://drive.google.com/file/d/1_5ZjT_HT1HdyzqUMVqeLxMK6whXCDCuz/view?usp=drive_link",
+      url1: "https://drive.google.com/file/d/1LSq8CgA8EWGUxzfuSaupg3OjiaUEdG7b/view?usp=drive_link",
       url2: "https://forms.gle/f9MxCXVsdmKURbiT7"
     },    // Add more events as needed
   ];
