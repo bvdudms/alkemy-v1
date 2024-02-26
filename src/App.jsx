@@ -8,6 +8,7 @@ import Council from './util/Council';
 import MadeBy from './util/MadeBy';
 import Guests from './util/Guests';
 import FollowUs from './util/FollowUs';
+import Special from './pages/Special';
 import mainlogo from '../image/logo.png';
 import bg1 from '../image/mainbg.png';
 import Technical from './pages/Technical';
@@ -63,7 +64,7 @@ const App = () => {
                     <div className=" flex flex-col mt-2 font-homo">
                       <p className="text-center px-4 font-semibold text-md md:text-2xl max-sm:hidden text-white">
                         Keep the dates locked: <span className="font-extrabold">2nd to 8th March 2024</span>{' '}
-                        <a href="https://drive.google.com/file/d/1xpRZpoNjStUXxe0oTN6-HPWvo4E9FRhd/view" className="underline">
+                        <a href="https://drive.google.com/file/d/1_tTUgjmuUAcsV6huo2QI5UE5SVE8o-lC/view?usp=drive_link" className="underline">
                           Go through our official brochure
                         </a>
                       </p>
@@ -74,7 +75,7 @@ const App = () => {
                         March 2024
                       </p>
                       <p className="text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white underline">
-                        <a href="https://drive.google.com/file/d/1xpRZpoNjStUXxe0oTN6-HPWvo4E9FRhd/view">Go through our Official Brochure</a>
+                        <a href="https://drive.google.com/file/d/1_tTUgjmuUAcsV6huo2QI5UE5SVE8o-lC/view?usp=drive_link">Go through our Official Brochure</a>
                       </p>
                     </div>
                   </div>
@@ -152,6 +153,20 @@ const App = () => {
                     handleScroll={handleScroll}
                     isSmallScreen={isSmallScreen}
                   ></Cultural>
+                </div>
+              }
+            />
+            <Route
+              path="/special"
+              element={
+                <div className="">
+                  <Special
+                    toggleMenu={toggleMenu}
+                    closeMenu={closeMenu}
+                    isMenuOpen={isMenuOpen}
+                    handleScroll={handleScroll}
+                    isSmallScreen={isSmallScreen}
+                  ></Special>
                 </div>
               }
             />

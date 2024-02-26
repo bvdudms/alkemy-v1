@@ -33,6 +33,9 @@ const PageNav = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, logo, button
             <li onClick={handleLinkClickWithScroll}>
               <Link to="/cultural" className="text-white hover:text-yellow-400 hover:underline">Cultural</Link>
             </li>
+            <li onClick={handleLinkClickWithScroll}>
+              <Link to="/special" className="text-white hover:text-yellow-400 hover:underline">Special</Link>
+            </li>
           </ul>
           <button
             className="md:hidden text-white focus:outline-none"

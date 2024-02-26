@@ -1,6 +1,7 @@
 import React from 'react';
 import sports from '../../image/sports.jpg';
 import cultural from '../../image/cultural.jpg';
+import special from '../../image/special_home.png';
 import tech from '../../image/tech.jpg';
 import esports from '../../image/esports.jfif';
 import { Link } from 'react-router-dom';
@@ -56,9 +57,16 @@ const Events = () => {
               </Link>
             </button>
           </div>
-
-
         </div>
+        <div className="flex flex-col gap-5 w-[440px] max-sm:w-[320px] mt-[3vh]">
+            <img src={special} alt="" className='self-center w-[400px] max-sm:w-[300px] rounded-xl' />
+            <p className='text-center text-pink-700 text-5xl font-bold'>Special</p>
+            <button className='self-center w-[200px] text-2xl font-bold text-white bg-yellow-400 hover:bg-yellow-500 rounded-3xl py-2'>
+            <Link to="/special" className='py-2 px-[16px]'>
+                Explore Now &#10097;
+              </Link>
+            </button>
+          </div>
       </div>
     </div>
   );

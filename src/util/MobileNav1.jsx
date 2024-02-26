@@ -35,6 +35,9 @@ const MobileNav = ({ isMenuOpen, closeMenu, handleScroll }) => {
             <li className={`${activeLink === 'cultural' ? 'text-yellow-500' : ''}`}>
               <Link to="/cultural" onClick={() => {setActiveLink('cultural'); handleLinkClickWithScroll('cultural')}}>Cultural</Link>
             </li>
+            <li className={`${activeLink === 'special' ? 'text-yellow-500' : ''}`}>
+              <Link to="/special" onClick={() => {setActiveLink('special'); handleLinkClickWithScroll('special')}}>Special</Link>
+            </li>
           </ul>
         </div>
       )}

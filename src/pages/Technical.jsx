@@ -10,10 +10,6 @@ import treasure from '../../image/treasure.jpeg';
 import graphic from '../../image/ui.jpeg';
 import meme from '../../image/meme.jpeg';
 import relay from '../../image/code relay.png';
-import cc from '../../image/cc.png';
-import sf from '../../image/sf.png';
-import bq from '../../image/bq.png';
-import ibp from '../../image/ibp.png';
 import technicallogo from '../../image/technical_logo.png';
 import CustomButton from '../util/CustomButton';
 import CustomButton1 from '../util/CustomButton1';
@@ -24,32 +20,32 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
   const events = [
     {
       id: 1,
-      name: "Typing Competition",
+      name: "Keyboard Kombat",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "--",
+      entryFee: "₹100",
       img: `${typing}`,
-      url1: "#_",
+      url1: "https://drive.google.com/file/d/1aPZ7yINnUkBEa8NVKb2nMPdh6e7jSngd/view",
       url2: "https://forms.gle/mYHr8Wss67YhBRvQ6"
     },
     {
       id: 2,
-      name: "Coding Wars",
+      name: "Coding Battlefield",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "--",
+      entryFee: "₹100",
       img: `${coding}`,
-      url1: "#_",
+      url1: "https://drive.google.com/file/d/1P3zzUf5ArmjvYEQfvQ0WY3qIkyFowUWZ/view",
       url2: "https://forms.gle/1B1vCMoVQMnSPDXa6"
     },
     {
       id: 3,
-      name: "Webathon 1.0",
+      name: "Webathon",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "--",
+      entryFee: "₹100",
       img: `${web}`,
-      url1: "#_",
+      url1: "https://drive.google.com/file/d/17_Ve6E3ICUJYSOwt6MaI0cizQy4v2Z0z/view",
       url2: "https://forms.gle/DXSwx4eDbxnkXxGx8"
     },
     {
@@ -57,29 +53,29 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       name: "Treasure Hunt",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "--",
+      entryFee: "₹200",
       img: `${treasure}`,
-      url1: "#_",
+      url1: "https://drive.google.com/file/d/1tf7HJ-FcxbokrsQHhbY_lVpiog5-iQeX/view",
       url2: "https://forms.gle/pdq3G7JGmdcyKFcn8"
     },
     {
       id: 5,
-      name: "Graphic Designing",
+      name: "Avengers Artistry Affairs",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "--",
+      entryFee: "₹100",
       img: `${graphic}`,
-      url1: "#_",
+      url1: "https://drive.google.com/file/d/1DWNAcI3_-XqklDJn-rQd7YGWR-5AskCf/view",
       url2: "https://forms.gle/kkq5JouK8Fx5BMrc6"
     },
     {
       id: 6,
-      name: "Meme Wars",
+      name: "Meme Mayhem",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "--",
+      entryFee: "₹100",
       img: `${meme}`,
-      url1: "#_",
+      url1: "https://drive.google.com/file/d/1Enr2ukGFt5PXD0O1CBAqGmwu97GvikO-/view?usp=drive_link",
       url2: "https://forms.gle/h5yDwWo1awj2e5pk8"
     },
     {
@@ -87,65 +83,23 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       name: "Code Relay",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "--",
+      entryFee: "₹200",
       img: `${relay}`,
-      url1: "#_",
+      url1: "https://drive.google.com/file/d/1TfBTQhPz56J4uHUri4P1I8MzjgnTzCQB/view?usp=drive_link",
       url2: "https://forms.gle/k52tdDtQwUwiQbH36"
     },
     {
       id: 8,
-      name: "Shark Tank",
+      name: "Heroic Venture Vault",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "--",
+      entryFee: "₹100",
       img: `${shark}`,
-      url1: "#_",
+      url1: "https://drive.google.com/file/d/1PewA9K1dXW_ngmR_0xlVLiCJKiv_3a0y/view?usp=drive_link",
       url2: "https://forms.gle/uw15AMayMA5e3xxJ7"
     },
     // Add more events as needed
   ];
-  const dms = [
-    {
-      id: 9,
-      name: "Coding Competition",
-      date: "05/03/2024",
-      mode: "Offline",
-      entryFee: "Free",
-      img: `${cc}`,
-      url1: "https://drive.google.com/file/d/18JwZgkeJDMp4cGN5BLdSCZdoKwI51p7A/view?usp=sharing",
-      url2: "https://www.google.com/url?q=https://forms.gle/QgEt4qu9VwamirYS7&sa=D&source=editors&ust=1708854910201628&usg=AOvVaw3c_VsIv6rOv0KwnJlQ69np"
-    },
-    {
-      id: 10,
-      name: "Short Film Making",
-      date: "05/03/2024",
-      mode: "Offline",
-      entryFee: "Free",
-      img: `${sf}`,
-      url1: "https://drive.google.com/file/d/1H-_60SH_yzs2haVA9ovgFC2HVupF-yCE/view?usp=sharing",
-      url2: "https://www.google.com/url?q=https://forms.gle/hE1fNjDVpRnidU697&sa=D&source=editors&ust=1708854910200667&usg=AOvVaw2ggnvIuZDzz17ZMBko4Sh_"
-    },
-    {
-      id: 11,
-      name: "Business Quiz",
-      date: "07/03/2024",
-      mode: "Offline",
-      entryFee: "Free",
-      img: `${bq}`,
-      url1: "https://drive.google.com/file/d/1N7LgyRAaZCADzNQ9Pl5sv4MIHpRcPwi4/view?usp=sharing",
-      url2: "https://www.google.com/url?q=https://forms.gle/Dx83texwyzvzF2oT9&sa=D&source=editors&ust=1708854910201407&usg=AOvVaw0jgBUDGwNv7kye-9edH-3u"
-    },
-    {
-      id: 12,
-      name: "Internship/Blackbook Project",
-      date: "06/03/2024",
-      mode: "Offline",
-      entryFee: "Free",
-      img: `${ibp}`,
-      url1: "https://drive.google.com/file/d/1mRjiOIatfFpVC49UGP5c6z-kwXO9Adjt/view?usp=sharing",
-      url2: "https://www.google.com/url?q=https://surl.li/qsnoo&sa=D&source=editors&ust=1708854910200983&usg=AOvVaw0HCeOb43JtfRAn4guMQNbn"
-    },
-  ]
 
   return (
     <>
@@ -187,33 +141,6 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
             <TSlider events={events} imageWidth={200} imageHeight={200} />
           </div>
 
-        )}
-        <div className="flex justify-center ">
-          <hr className='border border-t-4 border-blue-700 w-[60vw]' />
-        </div>
-        <div className="flex justify-center my-2">
-          <h3 className='text-center text-4xl max-sm:text-xl text-[dodgerblue] font-bold font-homo'>EVENTS BY DMS</h3>
-        </div>
-        <div className="flex justify-center">
-          <hr className='border border-t-4 border-blue-700 w-[60vw]' />
-        </div>
-        <div className="max-md:hidden mt-8 grid grid-cols-4 justify-center items-center">
-          {dms.map(event => (
-            <div key={event.id} className="mb-9 text-white font-mono font-bold flex flex-col justify-center items-center text-center">
-              <img className='w-[200px] rounded-xl' src={event.img} alt="" />
-              <p className='text-2xl tracking-wider'>{event.name}</p>
-              <p>Date: {event.date}</p>
-              <p>Mode: {event.mode}</p>
-              <p>Entry fee: {event.entryFee}</p>
-              <CustomButton1 link={event.url1} />
-              <CustomButton link={event.url2} />
-            </div>
-          ))}
-        </div>
-        {isSmallScreen && (
-          <div className="max-sm:mt-5">
-            <TSlider events={dms} imageWidth={200} imageHeight={200} />
-          </div>
         )}
         <div className="flex justify-center items-center mt-6 max-sm:mt-4">
           <button className='bg-blue-500 hover:bg-[blue] w-40 p-2 text-white rounded-full font-semibold text-lg'>
