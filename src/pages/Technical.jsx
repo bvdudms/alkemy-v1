@@ -23,7 +23,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       name: "Keyboard Kombat",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "₹100",
+      entryFee: "₹50",
       img: `${typing}`,
       url1: "https://drive.google.com/file/d/1aPZ7yINnUkBEa8NVKb2nMPdh6e7jSngd/view",
       url2: "https://forms.gle/mYHr8Wss67YhBRvQ6"
@@ -33,7 +33,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       name: "Coding Battlefield",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "₹100",
+      entryFee: "₹50",
       img: `${coding}`,
       url1: "https://drive.google.com/file/d/1P3zzUf5ArmjvYEQfvQ0WY3qIkyFowUWZ/view",
       url2: "https://forms.gle/1B1vCMoVQMnSPDXa6"
@@ -63,7 +63,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       name: "Avengers Artistry Affairs",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "₹100",
+      entryFee: "₹50",
       img: `${graphic}`,
       url1: "https://drive.google.com/file/d/1DWNAcI3_-XqklDJn-rQd7YGWR-5AskCf/view",
       url2: "https://forms.gle/kkq5JouK8Fx5BMrc6"
@@ -73,7 +73,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       name: "Meme Mayhem",
       date: "05/03/2024",
       mode: "Offline",
-      entryFee: "₹100",
+      entryFee: "₹50",
       img: `${meme}`,
       url1: "https://drive.google.com/file/d/1Enr2ukGFt5PXD0O1CBAqGmwu97GvikO-/view?usp=drive_link",
       url2: "https://forms.gle/h5yDwWo1awj2e5pk8"
