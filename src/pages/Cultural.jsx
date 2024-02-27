@@ -70,7 +70,7 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
       name: "Harmonies",
       date: "08/03/2024",
       mode: "Solo, Group, Instrumental battle",
-      entryFee: "₹100, ₹300, ₹150",
+      entryFee: "₹100, ₹500, ₹150",
       img: `${sing}`,
       url1: "https://drive.google.com/file/d/1zLxUU15ZIFHP4zs0fkCf3aYUXBbszgCy/view?usp=drive_link",
       url2: "https://forms.gle/6bTa6t5jjMPp3nPj9"
