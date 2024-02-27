@@ -22,7 +22,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       entryFee: "Free",
       img: `${cc}`,
       url1: "https://drive.google.com/file/d/18JwZgkeJDMp4cGN5BLdSCZdoKwI51p7A/view?usp=sharing",
-      url2: "https://www.google.com/url?q=https://forms.gle/QgEt4qu9VwamirYS7&sa=D&source=editors&ust=1708854910201628&usg=AOvVaw3c_VsIv6rOv0KwnJlQ69np"
+      url2: "https://docs.google.com/forms/d/e/1FAIpQLScCCthG8BS_lymtZL9q4VJHIqMjC9sIKM3npABTFRcVeYNmQw/viewform"
     },
     {
       id: 10,
@@ -32,7 +32,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       entryFee: "Free",
       img: `${sf}`,
       url1: "https://drive.google.com/file/d/1H-_60SH_yzs2haVA9ovgFC2HVupF-yCE/view?usp=sharing",
-      url2: "https://www.google.com/url?q=https://forms.gle/hE1fNjDVpRnidU697&sa=D&source=editors&ust=1708854910200667&usg=AOvVaw2ggnvIuZDzz17ZMBko4Sh_"
+      url2: "https://docs.google.com/forms/d/e/1FAIpQLSeXhx2XVbIgt3Hhl5CHMDP3sMmumk5pBmnzm9TOj91zFSGIMg/viewform"
     },
     {
       id: 11,
@@ -42,7 +42,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       entryFee: "Free",
       img: `${bq}`,
       url1: "https://drive.google.com/file/d/1N7LgyRAaZCADzNQ9Pl5sv4MIHpRcPwi4/view?usp=sharing",
-      url2: "https://www.google.com/url?q=https://forms.gle/Dx83texwyzvzF2oT9&sa=D&source=editors&ust=1708854910201407&usg=AOvVaw0jgBUDGwNv7kye-9edH-3u"
+      url2: "https://docs.google.com/forms/d/e/1FAIpQLSfmgQJCLsEA_GA2MMlipk1qhKGvifRMkIzc0NzGVh1q0O7tEg/viewform"
     },
     {
       id: 12,
@@ -52,7 +52,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       entryFee: "Free",
       img: `${ibp}`,
       url1: "https://drive.google.com/file/d/1mRjiOIatfFpVC49UGP5c6z-kwXO9Adjt/view?usp=sharing",
-      url2: "https://www.google.com/url?q=https://surl.li/qsnoo&sa=D&source=editors&ust=1708854910200983&usg=AOvVaw0HCeOb43JtfRAn4guMQNbn"
+      url2: "https://docs.google.com/forms/d/e/1FAIpQLSdBtAr8hQDEKHMkKPUYEa9IbH1tHQb3WVYvrAJnVjZbaNr3Gg/viewform"
     },
   ]
 
