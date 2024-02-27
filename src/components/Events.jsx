@@ -1,9 +1,9 @@
 import React from 'react';
 import sports from '../../image/sports.jpg';
 import cultural from '../../image/cultural.jpg';
-import special from '../../image/special_home.png';
+import special from '../../image/special_home.jpg';
 import tech from '../../image/tech.jpg';
-import esports from '../../image/esports.jfif';
+import esports from '../../image/esports.jpg';
 import { Link } from 'react-router-dom';
 
 const Events = () => {

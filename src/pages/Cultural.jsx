@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import PageNav from '../util/PageNav';
 import logo from '../../image/logo.png';
 import culturalbg from '../../image/culturalbg.webp';
-import typing from '../../image/typing.jpeg';
 import dance from '../../image/dance.jpeg';
 import sing from '../../image/singing.jpeg';
 import fashion from '../../image/fashion.jpeg';

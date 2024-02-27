@@ -64,7 +64,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
         <hr className='border border-t-2 border-pink-700' />
 
         <div className="min-h-[90vh] lg:min-h-screen flex flex-col items-center max-sm:justify-center">
-          <img src={speciallogo} className="w-[60vw] max-w-[300px] h-auto mt-8 mb-1 rounded-full" alt="" />
+          <img src={speciallogo} className="w-[60vw] lg:pl-14 max-w-[300px] h-auto mt-8 mb-1 rounded-full" alt="" />
           <p className='text-center text-pink-700 text-8xl font-bold max-sm:text-5xl'>Special Zone</p>
           <p className='text-white text-3xl font-bold mt-5 lg:px-96 text-center max-sm:text-xl max-sm:px-5'>Alkemy ignites!  Code. Create. Connect. Anime tech event for future alchemists.  #Management #Competition 🔥</p>
         </div>

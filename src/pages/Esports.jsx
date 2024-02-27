@@ -2,7 +2,6 @@ import React from 'react';
 import PageNav from '../util/PageNav';
 import logo from '../../image/logo.png';
 import esportsbackground from '../../image/esportsbackground.jpg';
-import typing from '../../image/typing.jpeg';
 import valo from '../../image/valorant.jpeg';
 import rocket from '../../image/rocket league.jpg';
 import tekken from '../../image/tekken.jpg';
