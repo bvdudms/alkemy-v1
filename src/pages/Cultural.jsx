@@ -157,7 +157,7 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
       name: "Rangoli Making",
       date: "07/03/2024",
       mode: "Solo",
-      entryFee: "Open",
+      entryFee: "Free",
       img: `${rangoli}`,
       url1: "https://drive.google.com/file/d/1zhFAFoOCZiuaNXw9MBNSTbF-LuqAa_Fz/view?usp=drive_link",
       url2: "https://forms.gle/zBs4pBuewgjWBfRr7"
