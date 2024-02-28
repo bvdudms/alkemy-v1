@@ -63,7 +63,7 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
       entryFee: "₹100, ₹200, ₹700, Open",
       img: `${dance}`,
       url1: "https://drive.google.com/file/d/1vMe-rn-bs-lIVDegi_c9zMgKyBISXchI/view?usp=drive_link",
-      url2: "https://forms.gle/VBfqSs4qqey9vJRP7xxxxxx"
+      url2: "https://forms.gle/VBfqSs4qqey9vJRP7"
     },
     {
       id: 2,
