@@ -236,7 +236,7 @@ const AllCouncil = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallSc
       image: `${pr_cosec}`,
       name: "",
       role: "(PR CO-SECRETARY)",
-      year: "TY BBA"
+      year: "FY/SY/TY MBA/BBA/BCA"
     },
     {
       image: `${sports_cosec}`,
