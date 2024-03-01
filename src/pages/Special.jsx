@@ -78,7 +78,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
         <div className="flex justify-center">
           <hr className='border border-t-4 border-pink-700 w-[60vw]' />
         </div>
-        <div className="max-md:hidden mt-8 grid grid-cols-4 justify-center items-center">
+        <div className="max-md:hidden mt-8 grid grid-cols-4 justify-center items-center px-[8vw]">
           {dms.map(event => (
             <div key={event.id} className="mb-9 text-white font-mono font-bold flex flex-col justify-center items-center text-center">
               <img className='w-[200px] rounded-xl' src={event.img} alt="" />
