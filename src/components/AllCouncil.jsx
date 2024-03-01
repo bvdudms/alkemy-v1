@@ -233,7 +233,7 @@ const AllCouncil = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallSc
       year: "SY BBA"
     },
     {
-      image: `${pr_sec}`,
+      image: `${pr_cosec}`,
       name: "",
       role: "(PR CO-SECRETARY)",
       year: "TY BBA"

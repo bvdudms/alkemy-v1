@@ -77,6 +77,10 @@ const App = () => {
                       <p className="text-center px-4 font-semibold text-md md:text-2xl lg:hidden text-white underline">
                         <a href="https://drive.google.com/file/d/1_tTUgjmuUAcsV6huo2QI5UE5SVE8o-lC/view?usp=drive_link">Go through our Official Brochure</a>
                       </p>
+                      <p className="text-center px-2 font-semibold text-md md:text-2xl text-[gold] underline">
+                        <a href="https://drive.google.com/file/d/1F36koao2EmR-vb-ZdjJWLL6brvX-3RSL/view?usp=drive_link">Alkemy Prize-Pool</a>
+                      </p>
+                      
                     </div>
                   </div>
                   <div id="events">

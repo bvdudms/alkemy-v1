@@ -21,7 +21,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
       mode: "Offline",
       entryFee: "Free",
       img: `${cc}`,
-      url1: "https://drive.google.com/file/d/18JwZgkeJDMp4cGN5BLdSCZdoKwI51p7A/view?usp=sharing",
+      url1: "https://drive.google.com/file/d/1NWwS9eHCBKJbNmy1Zp5YCvvqWSTd1_fS/view?usp=sharing",
       url2: "https://docs.google.com/forms/d/e/1FAIpQLScCCthG8BS_lymtZL9q4VJHIqMjC9sIKM3npABTFRcVeYNmQw/viewform"
     },
     {

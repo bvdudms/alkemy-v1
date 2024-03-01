@@ -33,7 +33,7 @@ const Esports = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScree
       name: "Rocket League",
       date: "06/03/2024",
       mode: "Solo, Duo, Trio(Offline)",
-      entryFee: "₹50, ₹100, ₹150",
+      entryFee: "₹50, ₹100, ₹300",
       img: `${rocket}`,
       url1: "https://drive.google.com/file/d/1Vz3zaE7BpTmmPgPuTbAwRJS1E4JCU5D4/view?usp=drive_link",
       url2: "https://forms.gle/WFFF3V5wL1xXiGL8A"

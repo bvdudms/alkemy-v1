@@ -100,7 +100,7 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
       name: "Reel Rush",
       date: "07/03/2024",
       mode: "Solo",
-      entryFee: "₹50",
+      entryFee: "₹100",
       img: `${reel}`,
       url1: "#_",
       url2: "https://forms.gle/HK48tJtkMdjb1Jnc8"
@@ -124,7 +124,7 @@ const Cultural = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScre
       name: "Reel Rush",
       date: "07/03/2024",
       mode: "Solo",
-      entryFee: "₹50",
+      entryFee: "₹100",
       img: `${reel}`,
       url1: "#_",
       url2: "https://forms.gle/HK48tJtkMdjb1Jnc8"
