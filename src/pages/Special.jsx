@@ -16,7 +16,7 @@ const Technical = ({ isMenuOpen, toggleMenu, closeMenu, handleScroll, isSmallScr
   const dms = [
     {
       id: 9,
-      name: "Coding Competition",
+      name: "Web & Problem Solving",
       date: "05/03/2024",
       mode: "Offline",
       entryFee: "Free",
