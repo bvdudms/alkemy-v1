@@ -6,7 +6,7 @@ export function useScreenSize1() {
     useEffect(() => {
         function handleResize() {
             const screenWidth = window.innerWidth;
-            setIsLargeScreen(screenWidth <= 640 || screenWidth > 1280); // Adjusted condition
+            setIsLargeScreen(screenWidth <= 640 || screenWidth > 1200); // Adjusted condition
         }
 
         window.addEventListener('resize', handleResize);
